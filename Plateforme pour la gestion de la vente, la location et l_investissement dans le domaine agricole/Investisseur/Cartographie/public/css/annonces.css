@@ -1,0 +1,205 @@
+::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1 !important; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888 !important; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555 !important; 
+  } body{
+
+      background-color: #eee !important;
+    }
+
+    .mt-50{
+      margin-top:50px !important;
+    }
+
+    .product-card {
+display: block !important;
+position: relative !important;
+width: 100% !important;
+border: 1px solid #e5e5e5 !important;
+border-radius: 5px !important;
+background-color: #fff !important;
+}
+
+.mb-30 {
+margin-bottom: 30px !important;
+}
+
+.product-badge {
+position: absolute !important;
+height: 24px !important;
+padding: 0 14px !important;
+border-radius: 3px !important;
+color: #fff !important;
+font-size: 12px !important;
+font-weight: 400 !important;
+letter-spacing: .025em !important;
+line-height: 24px !important;
+white-space: nowrap !important;
+top: 12px !important;
+left: 12px !important;
+}
+
+
+.bg-secondary {
+background-color: #dc3545  !important;
+}
+
+.bg-success {
+background-color: #21bd4a  !important;
+}
+
+
+.bg-secondary {
+    background-color: #555!important;
+}
+
+.product-thumb>img {
+display: block !important;
+width: 100% !important;
+height: 300px !important;
+}
+
+
+.product-category {
+width: 100% !important;
+margin-bottom: 6px !important;
+font-size: 12px !important;
+}
+
+.text-body {
+    color: #FFF!important;
+}
+
+.product-card-body {
+padding: 18px !important;
+padding-top: 15px !important;
+text-align: center !important;
+}
+
+.product-category>a {
+transition: color .2s !important;
+color: #999 !important;
+text-decoration: none !important;
+}
+
+
+.product-title {
+margin-bottom: 18px !important;
+font-size: 16px !important;
+font-weight: normal !important;
+}
+
+.product-title>a {
+transition: color .3s !important;
+color: #232323 !important;
+text-decoration: none !important;
+}
+
+.product-price {
+display: inline-block !important;
+margin-bottom: 10px !important;
+padding: 9px 15px !important;
+border-radius: 4px !important;
+background-color: #248d0f !important;
+color: #ffffff !important;
+font-size: 16px !important;
+font-weight: normal !important;
+text-align: center !important;
+}
+
+
+.product-button-group {
+display: table !important;
+width: 100% !important;
+border-top: 1px solid #e5e5e5 !important;
+table-layout: fixed !important;
+}
+
+.product-button-group a:hover{
+color: #248d0f !important;
+}
+
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+  background-color:#d1d1d2 !important;
+}
+.carousel-indicators {
+  bottom: -50px !important;
+  align-items: center !important;
+  margin-left: 350px !important;
+}
+
+.carousel-control.right{text-shadow:none !important;color: #d1d1d2 !important;}
+
+.product-button:first-child {
+border-bottom-left-radius: 5px !important;
+}
+
+
+.product-button {
+display: table-cell !important;
+position: relative !important;
+height: 62px !important;
+padding: 10px !important;
+transition: background-color .3s !important;
+border: 0 !important;
+border-right: 1px solid #e5e5e5 !important;
+background: #f2f3f5 !important;
+color: #505050 !important;
+overflow: hidden !important;
+vertical-align: middle !important;
+text-align: center !important;
+text-decoration: none !important;
+}
+
+.product-button:hover>span {
+-webkit-transform: translateY(0) !important;
+-ms-transform: translateY(0) !important;
+transform: translateY(0) !important;
+opacity: 1 !important;
+}
+
+.product-button>span {
+display: block !important;
+position: absolute !important;
+bottom: 9px !important;
+left: 0 !important;
+width: 100% !important;
+-webkit-transform: translateY(12px) !important;
+-ms-transform: translateY(12px) !important;
+transform: translateY(12px) !important;
+font-size: 12px !important;
+white-space: nowrap !important;
+opacity: 0 !important;
+}
+
+.product-button>i, .product-button>span {
+transition: all .3s !important; 
+}
+
+.product-button>i {
+display: inline-block !important;
+position: relative !important;
+margin-top: 5px !important;
+font-size: 18px !important;
+}
+
+.product-button:hover>i {
+-webkit-transform: translateY(-10px) !important;
+-ms-transform: translateY(-10px) !important;
+transform: translateY(-10px) !important;
+}
